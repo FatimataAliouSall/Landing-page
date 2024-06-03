@@ -424,7 +424,6 @@ header{
 
 .cours{
     height: 650px;
-    border: 2px solid black;
     width: 80%;
     margin: 40px auto;
     display: flex;
@@ -455,6 +454,9 @@ header{
 .center .right{
     width: 210px;
     height: 210px;
+}
+.center .right h5{
+    color: #CD0033;
 }
 .center .left{
     width: 210px;
@@ -514,6 +516,62 @@ header{
     justify-content: space-between;
     align-items: center;
 }
+.cours-left {
+    display: flex;
+    flex-direction: column;
+    width: 470px;
+    height: 600px;
+    margin: auto;
+    
+}
+.cours-left .input {
+    width: 200px;
+    height: 35px;
+    margin-left: 20px;
+   border-radius: 10px;
+   box-shadow: 0 0 5px;
+   border: none;
+   padding-left: 10px;
+}
+.cours-left p {
+    text-align: right;
+    color: #CD0033;
+    font-weight: bold;
+}
+textarea {
+    margin-left: 20px;
+    width: 430px;
+    height: 100px;
+    border-radius: 10px;
+   box-shadow: 0 0 5px;
+   border: none;
+   padding: 10px;
+}
+#prenom, #nom {
+    margin-bottom: 40px;
+}
+.check {
+    margin-left: 20px;
+    margin-top: 30px;
+}
+.cours-left button {
+    margin-left: 20px;
+    margin-top: 50px;
+    padding: 15px;
+    background-color: #CD0033;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+.cours-left .p {
+    text-align: left;
+    margin-left: 20px;
+    color: rgb(112, 105, 105);
+    font-weight: 500;
+    margin-top: 70px;
+}
 .bxs-plus-circle{
     color: #CD0033;
 }
@@ -528,6 +586,7 @@ header{
     display: flex;
     height: 400px;
     background-color: #000;
+    margin-top: 40px;
 }
 .child-footer {
     display: flex;
@@ -596,4 +655,20 @@ header{
     padding-left: 30px;
     padding-right: 30px;
     align-items: center;
+}
+.partenaire{
+    display: flex;
+    flex-direction: column;
+}
+.div-image{
+    width: 80%;
+    height: 120px;
+    margin: 20px auto;
+    display: flex;
+
+
+}
+.div-image img {
+    width: 200px;
+    height: 120px;
 }
